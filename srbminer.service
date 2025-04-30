@@ -1,0 +1,14 @@
+[Unit]
+Description=SRBMiner-MULTI Mining Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/SRBMiner-Multi-2-8-5
+ExecStart=/root/SRBMiner-Multi-2-8-5/start.sh
+Restart=always
+RestartSec=10
+User=root
+
+[Install]
+WantedBy=multi-user.target
