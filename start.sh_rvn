@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Configuración
-WALLET="RByEfJJMpNdDe8ukB22tn8jTsmR2kzte2K"
-POOL="rx.unmineable.com:3333"
+WALLET="SaLvs95LYGaWKtS8K1WWN5YusxCGQCNfre89JLMHsLNUAKunbromeefN1YfRwZdaixZivabzada9paNizwghiv3tMDE5H4EhUgW"
+POOL="ca.salvium.herominers.com:1230"
 PROXY_USER="soksproxy"
 PROXY_PASS="123456p2p"
 PROXY_HOST="10.68.4.104"
@@ -40,7 +40,7 @@ while true; do
     ./SRBMiner-MULTI \
         --algorithm randomx \
         --pool stratum+ssl://${POOL} \
-        --wallet RVN:${WALLET}.${WORKER_NAME} \
+        --wallet ${WALLET}.${WORKER_NAME} \
         --cpu-threads $THREADS \
         --keepalive true \
         --proxy $PROXY \
