@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuración
-WALLET="SaLvs95LYGaWKtS8K1WWN5YusxCGQCNfre89JLMHsLNUAKunbromeefN1YfRwZdaixZivabzada9paNizwghiv3tMDE5H4EhUgW"
+WALLET="SaLvdUGZYkj7EZWXu2dQ6MUkFQ9TYhvj92Lt2kXffsBcKMeuE5JhekFQ8EXBjEBSMGMegPXn9cUHa82tUU2GKzsEV5m3c6SCEoj"
 POOL="ca.salvium.herominers.com:1230"
 PROXY_USER="soksproxy"
 PROXY_PASS="123456p2p"
