@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # Configuración
-WALLET="SaLvdUGZYkj7EZWXu2dQ6MUkFQ9TYhvj92Lt2kXffsBcKMeuE5JhekFQ8EXBjEBSMGMegPXn9cUHa82tUU2GKzsEV5m3c6SCEoj"
-POOL="ca.salvium.herominers.com:1230"
+#WALLET="SaLvdUGZYkj7EZWXu2dQ6MUkFQ9TYhvj92Lt2kXffsBcKMeuE5JhekFQ8EXBjEBSMGMegPXn9cUHa82tUU2GKzsEV5m3c6SCEoj"
+WALLET="Q010500f4bdcd70be645255f2f334361a99e0ba5936bb249dbe48c39ebad1667ed596bf498c6374"
+#POOL="ca.salvium.herominers.com:1230"
+POOL="de.qrl.herominers.com:1166"
 PROXY_USER="soksproxy"
 PROXY_PASS="123456p2p"
 PROXY_HOST="10.68.4.104"
